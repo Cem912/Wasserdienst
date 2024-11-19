@@ -1,0 +1,62 @@
+/* visuell.css */
+
+/* Allgemeine Stileinstellungen für den Body */
+body {
+    font-family: Arial, sans-serif; /* Schriftart für den gesamten Text */
+    margin: 0; /* Entfernt Standardabstände des Browsers */
+    padding: 0; /* Entfernt Standardabstände des Browsers */
+    background-color: #f5f5f5; /* Hintergrundfarbe der Seite */
+    color: #333; /* Textfarbe */
+}
+
+/* Stile für den Kopfbereich */
+header {
+    background-color: #4CAF50; /* Hintergrundfarbe des Kopfbereichs */
+    color: white; /* Textfarbe im Kopfbereich */
+    padding: 1em 0; /* Innenabstand oben und unten */
+    text-align: center; /* Zentriert den Text im Kopfbereich */
+}
+
+/* Stile für die Navigationsleiste */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1em;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Abschnitte der Webseite */
+section {
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Stile für die Fußzeile */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4CAF50;
+    color: white;
+}
